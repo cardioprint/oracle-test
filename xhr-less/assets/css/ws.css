@@ -1,0 +1,26 @@
+#ws-container{
+    border: 1px
+}
+
+#status {
+    padding: 0 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+}
+.offline {
+    background: #ddd;
+    color: #000;
+}
+.online {
+    background: #093;
+    color: #fff;
+}
+.error {
+    background: #930;
+    color: #fff;
+}
+.connecting {
+    background: #fc0;
+    color: #000;
+}

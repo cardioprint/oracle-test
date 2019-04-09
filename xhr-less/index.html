@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>No XHR page</title>
+    <script src="assets/js/main.js"></script>
+    <script src="assets/js/json.js"></script>
+    <script src="assets/js/ws.js"></script>
+    <script src="assets/js/iframe.js"></script>
+    <script src="assets/js/fetch.js"></script>
+    <script src="assets/js/serverSentEvents.js"></script>
+
+    <link rel="stylesheet" href="assets/css/bootstrap-grid.css">
+    <link rel="stylesheet" href="assets/css/ws.css">
+</head>
+<body>
+    <div id="ws-container" class="container-fluid">
+        <div class="row"><h1>Minimalistique Websocket client</h1></div>
+        <div class="row">
+            <div class="col-3"><span id="status" class="offline">offline</span></div>
+            <div class="col-3"><button id="send">Send Websocket request</button></div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col"><strong>Check loaded data in browser console</strong></div>
+    </div>
+</body>
+</html>
